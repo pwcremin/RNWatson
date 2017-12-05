@@ -6,11 +6,9 @@
 
 import React, { Component } from 'react';
 import {
-    AppRegistry,
     StyleSheet,
     Text,
     View,
-    Image
 } from 'react-native';
 
 
@@ -67,6 +65,17 @@ export default class App extends Component {
                     title={'NaturalLanguageUnderstanding'}
 
                     onPress={()=> navigation.navigate('NaturalLanguageUnderstanding')}
+                >
+
+                </Button>
+
+                <Button
+                    raised
+                    buttonStyle={{backgroundColor: 'red', borderRadius: 10, margin: 10}}
+                    textStyle={{textAlign: 'center'}}
+                    title={'Conversation'}
+
+                    onPress={()=> navigation.navigate('Conversation')}
                 >
 
                 </Button>

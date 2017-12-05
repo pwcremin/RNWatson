@@ -5,6 +5,7 @@ import { StackNavigator } from 'react-navigation';
 import TextToSpeech from '../components/textToSpeech';
 import SpeechToText from '../components/speechToText';
 import ToneAnalyzer from '../components/toneAnalyzer';
+import Conversation from '../components/conversation';
 import NaturalLanguageUnderstanding from '../components/naturalLanguageUnderstanding';
 import App from '../components/app';
 
@@ -13,11 +14,12 @@ export const AppNavigator = StackNavigator( {
         TextToSpeech: { screen: TextToSpeech },
         SpeechToText: { screen: SpeechToText },
         ToneAnalyzer: { screen: ToneAnalyzer },
+        Conversation: { screen: Conversation },
         NaturalLanguageUnderstanding: { screen: NaturalLanguageUnderstanding },
     },
     {
         navigationOptions: {
-            headerStyle: {position: 'absolute', top: 0, left: 0, backgroundColor: 'rgba(0,0,0,0)'},
+            headerStyle: { position: 'absolute', top: 0, left: 0, backgroundColor: 'rgba(0,0,0,0)' },
         },
         initialRouteName: 'App'
     }

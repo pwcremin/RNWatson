@@ -656,6 +656,7 @@
 		13B07FAE1A68108700A75B9A /* RNWatson */ = {
 			isa = PBXGroup;
 			children = (
+				A8FD19701FCC718C00242227 /* react-native-watson */,
 				A860F1371FCA243700315031 /* RNWatson.m */,
 				A860F1381FCA243700315031 /* RNWatson.swift */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -824,6 +825,13 @@
 				A860F1041FCA234800315031 /* libRNVectorIcons.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A8FD19701FCC718C00242227 /* react-native-watson */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "react-native-watson";
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
